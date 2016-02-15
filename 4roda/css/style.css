@@ -1,0 +1,134 @@
+
+/* style css - Agatha Paiva */
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #E6E6E6;
+}
+.navbar-brand>img{
+
+    margin-left: -82px;
+}
+.navbar {
+  border-radius: 0px;
+  margin: 6px;
+  padding: 5px;
+  background-color: #ed1c24;
+  border-color:#ed1c24;
+  color:#FFF;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#FFF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: rgba(255, 0, 0, 0.63);
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #f5f5f5;
+}
+
+.mais-acessados{
+     float: left;
+  width: 100%;
+  background: #000;
+  padding-left: 140px;
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+    margin-top: -5.3px;
+}
+    .mais-acessados:before {
+  height: 28px;
+  content: "+ ACESSADOS";
+  padding-top: 5px;
+  width: 140px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: 700 14px "Dosis",Sans-serif;
+  color: white;
+  padding-left: 20px;
+  background: #ca1e1e;
+}
+    .mais-acessados ul li{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 28px;
+  margin-left: 20px;
+  text-decoration:none;
+}
+
+  .mais-acessados ul li a {
+  color: white;
+  display: block;
+  font: 700 14px "Dosis",Sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+    }
+
+.navbar-brand {
+    font-size: 12px;
+}
+
+
+#searchBar {
+	width: 50px;
+    float: right;
+
+}
+
+.row{
+	margin-right: 4px;
+    margin-left: 4px;
+    padding: 1px ;
+}
+
+.col-md-6, .col-md-3{
+	padding: 1px ;
+	margin-bottom: 5px;
+
+}
+.col-md-4 {
+	padding: 1px;
+}
+
+
+.input-group{
+width: 135px;
+margin-top: -80px;
+}
+
+a{
+      color: #ed1c24;
+  text-decoration: none;
+}
+
+/* destaques princiapl*/
+
+ ul.principais{
+      margin-bottom: 20px;
+      list-style: none;
+  padding: 0;
+  margin: 0;
+ }
+
+ ul.principais li {
+    float: left;
+ }
+
+ ul.principais a{
+      position: relative;
+  display: block;
+ }
+
+ img{
+    vertical-align: middle;
+      border: 0;
+ }
+
+ p{
+    margin: 0 0 10px;
+  font-size: smaller;
+ }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>CRUD </title>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#">Controle de Estoque</a>
+   </div>
+  </div>
+ </nav>
+
+ <div id="main" class="container-fluid">
+  <h3 class="page-header">Cadastro de Cliente </h3>
+  <form method="POST" action="inserir.php">
+      <div class="row">
+      <div class="form-group col-md-4">
+        <label> NOME </label>
+        <input type="text" class="form-control" name="nome" placeholder="Digite o valor">
+      </div>
+      <div class="form-group col-md-4">
+        <label> E-MAIL </label>
+        <input type="text" class="form-control" name="email" placeholder="Digite o valor">
+      </div>
+      <div class="form-group col-md-4">
+        <label> TELEFONE</label>
+        <input type="text" class="form-control" name="telefone" placeholder="Digite o valor">
+      </div>
+  </div>
+  </form>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="submit" class="btn btn-primary" name="enviar" >CADASTRAR</button>
+
+    </div>
+  </div>
+ </div>
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
